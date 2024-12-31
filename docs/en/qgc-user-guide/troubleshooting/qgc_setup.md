@@ -91,7 +91,7 @@ If you try you will get the error as shown:
 
 ```sh
 $ ./QGroundControl.AppImage
-/tmp/.mount_i4hPuB/QGroundControl: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by /tmp/.mount_i4hPuB/QGroundControl)
+/tmp/.mount_i4hPuB/QGroundControl: /lib/aarch64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by /tmp/.mount_i4hPuB/QGroundControl)
 ```
 
 If you need to use Ubuntu 16.04 then one workaround is to build from source without the video libraries.

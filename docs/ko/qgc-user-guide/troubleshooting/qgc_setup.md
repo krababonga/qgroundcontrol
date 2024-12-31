@@ -89,7 +89,7 @@ Ubuntu 16.04에서는 실행되지 않습니다.
 
 ```sh
 $ ./QGroundControl.AppImage
-/tmp/.mount_i4hPuB/QGroundControl: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by /tmp/.mount_i4hPuB/QGroundControl)
+/tmp/.mount_i4hPuB/QGroundControl: /lib/aarch64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by /tmp/.mount_i4hPuB/QGroundControl)
 ```
 
 Ubuntu 16.04를 사용해야 하는 경우의 한 가지 해결 방법은 비디오 라이브러리 없이 소스에서 빌드하는 것입니다.
